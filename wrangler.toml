@@ -1,0 +1,19 @@
+name = "nest-nibble"
+main = "src/index.js"
+compatibility_date = "2026-11-21"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nest-nibble-db"
+database_id = "PASTE_D1_DATABASE_ID_HERE"
+
+[observability]
+enabled = true
+
+[observability.traces]
+enabled = true
